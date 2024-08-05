@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+/* header */
+
+.header-detail {
+    font-size: 12px;
+    width: 100%;
+    height: 95px;
+    background-color: #fdfdfd;
+    border-top: solid 1px #f0f0f0;
+    border-bottom: solid 1px #f0f0f0;
+    padding: 10px 0;
+    height: 30px;
+    color: #616060;
+}
+
+.header-detail .header-contacts li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-detail .header-contacts i {
+    margin-right: 5px;
+}
+
+.header-detail .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .header-detail {
+        height: 60px;
+
+    }
+
+    .header-detail .container {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .header-detail .header-contacts li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    color: #72c02c;
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar-nav a.admin-link {
+    color: white;
+    background-color: #84b25c;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.navbar-nav a.admin-link:hover {
+    background-color: #72c02c;
+}
+
+.headline-center {
+    text-align: center;
+    position: relative;
+}
+
+.content-boxes-v5 {
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    height: 25vh;
+}
+
+.overflow-h p {
+    font-size: 13px;
+}
+
+.no-top-space {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* footer */
+.footer-v1 .footer {
+    padding: 40px 0;
+    background: #272727;
+    color: #eee;
+}
+
+.footer-v1 .footer p,
+.footer-v1 .footer h2,
+.footer-v1 address,
+.footer-v1 .link-list a,
+.footer-v1 .link-list i {
+    color: #eee;
+}
+
+.footer-v1 .footer h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #72c02c;
+}
+
+.footer-v1 .link-list li {
+    border-top: solid 1px #353535;
+    padding: 10px 0;
+}
+
+.footer-v1 .link-list li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.footer-v1 .link-list li a:hover {
+    color: #72c02c;
+    text-decoration: underline;
+}
+
+.footer-v1 address {
+    line-height: 23px;
+    font-style: normal;
+}
+
+.footer-title {
+    color: #72c02c;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer .headline {
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.footer .headline h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer .list-unstyled.link-list {
+    padding: 0;
+}
+
+.footer .list-unstyled.link-list li {
+    list-style: none;
+}
+
+.footer .list-unstyled.link-list li i {
+    margin-left: 10px;
+}
+
+/* Footer End*/
+
+
+/* about page  */
+
+.headline-center h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.content ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.content ul li i {
+    margin-right: 10px;
+}
+
+blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    border-left: 5px solid #72c02c;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+blockquote small {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+.color-green {
+    color: #72c02c;
+}
+
+.font-color {
+    color: #8c8c8c;
+}
+
+
+/* contact page css */
+.headline {
+    margin-top: 20px;
+    display: block;
+    margin: 10px 0 25px 0;
+}
+
+.headline h2 {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 18px;
+    border-bottom: 2px solid #e4e9f0;
+    padding: 10px 0px;
+}
+
+.contact-form label .contact-form select option{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+
+}
+
+.contact-form {
+    border: 1px solid #e4e9f0;
+}
+
+.fonts-styling {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* admin-form */
+.form-container {
+    height: 50vh;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.admin-fonts{
+    font-size: 15px;
+}
